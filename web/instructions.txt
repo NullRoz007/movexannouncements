@@ -1,0 +1,13 @@
+This is mainly for Weekend Managers:
+
+How to change active days on the announcement chip.
+1. Open the file "activedays.json" in a text editor.
+2. Add the three letter name of the day to the list, for example:
+	To add monday to the active list, append "mon"
+	so the list changes from ["sat", "sun"] to ["sat", "sun", "mon"].
+	other days can be added in the same way, note that all entries in
+	this list must be surrounded by quotation marks and seperated by commas. (Order does not matter)
+3. Now upload the changes to the board, this is either done by double clicking the file called upload.bat, 
+   or by double clicking the patch.bat file. (DO NOT USE patch.bat if you are not Ben pls)
+4. Provided no errors popped up at any point, it is now patched and will run announcements on the provided days. 
+		
